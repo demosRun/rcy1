@@ -1,0 +1,220 @@
+<template lang="pug">
+.home
+  .top-box
+    .hrard
+      .w1200.clear
+        img.logo.fl(src="@|logo.png|")
+        .button-box.fr
+          .button-item.active(o-hover="grow") 登录
+          .button-item(o-hover="grow") 注册
+    .w1200
+      .search-box
+        img.title(src="@|title.png|")
+        .nav-bar
+          span.active 找人才政策
+          span 找爱才城市
+          span 找事业编制 
+          span 找央国企岗位
+        .select-bar
+          input(type="text" placeholder="请输入你要查询的地区或岗位信息")
+          img.search-button(src="@|search-button.png|" o-hover="grow")
+          .search-info
+            .title-bar
+              span(style="width: 19%;") 地区
+              span(style="width: 27%;") 地方人才政策
+              span(style="width: 27%;") 行业
+              span(style="width: 27%;") 企业福利
+            .scrrow-box.clear
+              ul.scrrow-item.card(style="width: 19%;")
+                li 济南
+                li 青岛
+                li 淄博
+                li 枣庄
+                li 东营
+                li 济南
+                li 青岛
+                li 淄博
+                li 济南
+                li 青岛
+                li 淄博
+                li 枣庄
+                li 东营
+                li 济南
+                li 青岛
+                li 淄博
+              .card.cle(style="width: 27%;")
+                ul.scrrow-item(style="width: 50%;")
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                ul.scrrow-item(style="width: 50%;")
+                  li 经费资助
+                  li 生活补贴
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+                  li 人才类别
+                  li 支持方式
+                  li 经济补贴
+
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.top-box {
+  background-image: url('@|bg-1.jpg|');
+  height: 1124px;
+  background-position: center;
+  .hrard {
+    .w1200 {
+      height: 80px;
+    }
+    .logo {
+      height: 54px;
+      margin: 13px;
+    }
+    .button-item {
+      display: inline-block;
+      background-color: white;
+      padding: 0px 27px;
+      border-radius: 15px;
+      font-size: 16px;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 5px;
+      cursor: pointer;
+      box-shadow: 1px 1px 4px #564f4f;
+    }
+    .button-item.active {
+      background-color: #1c9bf4;
+      color: white;
+    }
+    .button-box {
+      height: 80px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.hrard {
+  border-bottom: 1px solid #ccc;
+}
+.select-bar {
+  background-image: url('@|search-bar.png|');
+  width: 1132px;
+  height: 88px;
+  position: relative;
+  input {
+    position: absolute;
+    left: 0;
+    line-height: 88px;
+    font-size: 20px;
+    padding: 0 10px;
+    width: 707px;
+  }
+  .search-button {
+    position: absolute;
+    left: 750px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+.search-box {
+  margin-top: 180px;
+  .title {
+    display: block;
+    margin: 90px auto;
+  }
+  .select-bar {
+    margin: 0 auto;
+  }
+}
+.nav-bar {
+  text-align: left;
+  width: 1132px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 50px;
+  color: white;
+  span {
+    border-right: 1px solid white;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  span.active {
+    color: #2085ec;
+  }
+  span:last-child { 
+    border-right: none;
+  }
+}
+.search-info {
+  background-color: white;
+  position: absolute;
+  top: 90px;
+  width: 1132px;
+  box-shadow: 1px 1px 5px #6b5e5e;
+  height: 500px;
+  .title-bar {
+    line-height: 60px;
+    text-align: left;
+    background-color: #f6f6f8;
+    span {
+      display: inline-block;
+      font-size: 20px;
+      text-align: center;
+      color: #2085ec;
+    }
+  }
+  .scrrow-box, .scrrow-item {
+    height: 437px;
+  }
+  .scrrow-item {
+    overflow: auto;
+    li {
+      line-height: 40px;
+      font-size: 16px;
+    }
+  }
+  .card {
+    float: left;
+  }
+}
+</style>
