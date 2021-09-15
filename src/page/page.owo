@@ -18,70 +18,130 @@
         .select-bar
           input(type="text" placeholder="请输入你要查询的地区或岗位信息")
           img.search-button(src="@|search-button.png|" o-hover="grow")
-          .search-info
-            .title-bar
-              span(style="width: 19%;") 地区
-              span(style="width: 27%;") 地方人才政策
-              span(style="width: 27%;") 行业
-              span(style="width: 27%;") 企业福利
-            .scrrow-box.clear
-              ul.scrrow-item.card(style="width: 19%;")
-                li 济南
-                li 青岛
-                li 淄博
-                li 枣庄
-                li 东营
-                li 济南
-                li 青岛
-                li 淄博
-                li 济南
-                li 青岛
-                li 淄博
-                li 枣庄
-                li 东营
-                li 济南
-                li 青岛
-                li 淄博
-              .card.cle(style="width: 27%;")
-                ul.scrrow-item(style="width: 50%;")
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                ul.scrrow-item(style="width: 50%;")
-                  li 经费资助
-                  li 生活补贴
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-                  li 人才类别
-                  li 支持方式
-                  li 经济补贴
-
+          .more-button
+            .search-info
+              .title-bar
+                span(style="width: 19%;") 地区
+                span(style="width: 27%;") 地方人才政策
+                span(style="width: 27%;") 行业
+                span(style="width: 27%;") 企业福利
+              .scrrow-box.clear
+                ul.scrrow-item.card(style="width: 19%;")
+                  li 济南
+                  li 青岛
+                  li 淄博
+                  li 枣庄
+                  li 东营
+                  li 济南
+                  li 青岛
+                  li 淄博
+                  li 济南
+                  li 青岛
+                  li 淄博
+                  li 枣庄
+                  li 东营
+                  li 济南
+                  li 青岛
+                  li 淄博
+                .card.clear(style="width: 27%;")
+                  ul.scrrow-item.fl(style="width: 50%;")
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                  ul.scrrow-item.fl.nomer(style="width: 50%;")
+                    li 经费资助
+                    li 生活补贴
+                    li.active 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li.active 支持方式
+                    li 经济补贴
+                    li.active 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li.active 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                ul.scrrow-item.card(style="width: 27%;")
+                  li 互联网  |  IT  |  通讯
+                  li 销售  |  市场  |  客服
+                  li 经营管理  |  人事  |  行政  |  财务
+                  li 广告  |  媒体  |  艺术  |  出版
+                  li 教育  |  法律  |  咨询  |  翻译
+                  li 金融  |  保险
+                  li 互联网  |  IT  |  通讯
+                  li 销售  |  市场  |  客服
+                  li 经营管理  |  人事  |  行政  |  财务
+                  li 广告  |  媒体  |  艺术  |  出版
+                  li 教育  |  法律  |  咨询  |  翻译
+                  li 金融  |  保险
+                  li 互联网  |  IT  |  通讯
+                  li 销售  |  市场  |  客服
+                  li 经营管理  |  人事  |  行政  |  财务
+                  li 广告  |  媒体  |  艺术  |  出版
+                  li 教育  |  法律  |  咨询  |  翻译
+                  li 金融  |  
+                .card.clear(style="width: 27%;")
+                  ul.scrrow-item.fl(style="width: 50%;")
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                  ul.scrrow-item.fl.nomer(style="width: 50%;")
+                    li 经费资助
+                    li 生活补贴
+                    li.active 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+                    li 人才类别
+                    li 支持方式
+                    li 经济补贴
+  .bottom-box
+    plug(_name="module119" _src="https://template.owo.ink/84a645382bad88a3.owo")
 </template>
 
 <script>
@@ -96,6 +156,7 @@
   background-image: url('@|bg-1.jpg|');
   height: 1124px;
   background-position: center;
+  background-repeat: no-repeat;
   .hrard {
     .w1200 {
       height: 80px;
@@ -188,10 +249,12 @@
 .search-info {
   background-color: white;
   position: absolute;
-  top: 90px;
+  top: 88px;
   width: 1132px;
   box-shadow: 1px 1px 5px #6b5e5e;
   height: 500px;
+  right: 0;
+  display: none;
   .title-bar {
     line-height: 60px;
     text-align: left;
@@ -216,5 +279,87 @@
   .card {
     float: left;
   }
+}
+.nomer li {
+  background-image: url('@|nom.png|');
+  background-repeat: no-repeat;
+  background-position: 105px center;
+  text-align: left;
+  padding: 0 5px;
+}
+.nomer li.active {
+  background-image: url('@|nom-act.png|');
+}
+.more-button {
+  position: absolute;
+  height: 100%;
+  width: 215px;
+  right: 0;
+}
+.more-button:hover {
+  .search-info {
+    display: block;
+  }
+}
+.bottom-box {
+  background-image: url('@|bg-2.jpg|');
+  height: 1124px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.swiper-slide-box {
+  background-image: url('@|card.png|');
+  width: 565px;
+  height: 189px;
+}
+.card-swiper-box-9 {
+  position: absolute;
+  left: 15%;
+  right: 0;
+  margin: auto;
+  top: -20%;
+  bottom: 0;
+}
+.card-swiper-box-9 .swiper-slide .swiper-slide-box img {
+  width: 190px;
+  height: 100px;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+  background-color: transparent;
+}
+.lable-box span {
+  color: #ccc;
+  border: 1px solid #ccc;
+  width: 90px;
+  display: inline-block;
+  line-height: 24px;
+  float: left;
+  margin: 2px;
+  font-size: 12px;
+}
+.lable-box {
+  position: absolute;
+  width: 190px;
+  left: 236px;
+  top: 32px;
+}
+.info-box {
+  width: 190px;
+  position: absolute;
+  left: 234px;
+  bottom: 24px;
+  background-color: #449cf6;
+  color: white;
+}
+.info-2 {
+  background-color: #2085ec;
+  border-top: 1px solid #ccc;
 }
 </style>

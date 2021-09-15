@@ -1,0 +1,135 @@
+<template lang="pug">
+.card-swiper-box-9
+  .swiper-container.clear
+    .swiper-wrapper
+      .swiper-slide(:for="data._swiperBoxList" o-hover="grow")
+        .swiper-slide-box
+          img(src="@|bg-2.jpg|")
+          .lable-box.clear
+            span 中国新材料名都
+            span 陶瓷之乡
+            span 产业基础优势
+            span 人才科技优势
+          .info-box
+            .info-1 平均房价：8000元/平米
+            .info-2 平均工资：5900元/月
+  .tool-bar
+    //- img.back(src="http://cunchu.site/ozzx/resource/back-2.png" o-hover="grow" o-tap="previou")
+    //- img.forward(src="http://cunchu.site/ozzx/resource/forward-2.png" o-hover="grow" o-tap="next")
+  
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      swiper: null,
+      _swiperBoxList: [
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
+      ]
+    },
+    created: function () {
+      // 轮播图展示区域swiper
+      setTimeout(() => {
+        this.data.swiper = new Swiper(this.$el.getElementsByClassName('swiper-container')[0], {
+          slidesPerView: 2,
+          slidesPerGroup : 3,
+          slidesPerColumn: 3
+        })
+      }, 0)
+    },
+    previou: function () {
+      this.data.swiper.slidePrev()
+    },
+    next: function () {
+      this.data.swiper.slideNext()
+    }
+  }
+</script>
+
+
+<style lang="less">
+.card-swiper-box-9 {
+  width: 1000px;
+  height: 630px;
+  position: relative;
+}
+.swiper-container {
+  width: 1000px;
+  height: 580px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.swiper-container .swiper-slide {
+  height: 33.33%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 96%;
+    color: white;
+    padding: 0 2%;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+    background-image: url("@|https://cunchu.site/ozzx/resource/play.png|");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 98% center;
+  }
+}
+.swiper-wrapper {
+  height: 100%;
+}
+.swiper-slide-box {
+  margin: 7%;
+  width: 86%;
+  height: 86%;
+  cursor: pointer;
+  position: relative;
+}
+.tool-bar {
+  position: absolute;
+  right: 0;
+  bottom: -7%;
+  display: flex;
+  img {
+    display: block;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+}
+</style>

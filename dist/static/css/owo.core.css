@@ -65,10 +65,75 @@ li {
   transform: scale(1.1);
 }
 
+.card-swiper-box-9 {
+  width: 1000px;
+  height: 630px;
+  position: relative;
+}
+
+.card-swiper-box-9 .swiper-container {
+  width: 1000px;
+  height: 580px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.card-swiper-box-9 .swiper-container .swiper-slide {
+  height: 33.33%;
+  overflow: hidden;
+}
+
+.card-swiper-box-9 .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-swiper-box-9 .swiper-container .swiper-slide .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 96%;
+  color: white;
+  padding: 0 2%;
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  background-image: url("../images/https://cunchu.site/ozzx/resource/play.png");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 98% center;
+}
+
+.card-swiper-box-9 .swiper-wrapper {
+  height: 100%;
+}
+
+.card-swiper-box-9 .swiper-slide-box {
+  margin: 7%;
+  width: 86%;
+  height: 86%;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-swiper-box-9 .tool-bar {
+  position: absolute;
+  right: 0;
+  bottom: -7%;
+  display: flex;
+}
+
+.card-swiper-box-9 .tool-bar img {
+  display: block;
+  margin: 0 20px;
+  cursor: pointer;
+}
 .top-box {
   background-image: url('../images/bg-1.jpg');
   height: 1124px;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .top-box .hrard .w1200 {
@@ -176,10 +241,12 @@ li {
 .search-info {
   background-color: white;
   position: absolute;
-  top: 90px;
+  top: 88px;
   width: 1132px;
   box-shadow: 1px 1px 5px #6b5e5e;
   height: 500px;
+  right: 0;
+  display: none;
 }
 
 .search-info .title-bar {
@@ -211,5 +278,97 @@ li {
 
 .search-info .card {
   float: left;
+}
+
+.nomer li {
+  background-image: url('../images/nom.png');
+  background-repeat: no-repeat;
+  background-position: 105px center;
+  text-align: left;
+  padding: 0 5px;
+}
+
+.nomer li.active {
+  background-image: url('../images/nom-act.png');
+}
+
+.more-button {
+  position: absolute;
+  height: 100%;
+  width: 215px;
+  right: 0;
+}
+
+.more-button:hover .search-info {
+  display: block;
+}
+
+.bottom-box {
+  background-image: url('../images/bg-2.jpg');
+  height: 1124px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.swiper-slide-box {
+  background-image: url('../images/card.png');
+  width: 565px;
+  height: 189px;
+}
+
+.card-swiper-box-9 {
+  position: absolute;
+  left: 15%;
+  right: 0;
+  margin: auto;
+  top: -20%;
+  bottom: 0;
+}
+
+.card-swiper-box-9 .swiper-slide .swiper-slide-box img {
+  width: 190px;
+  height: 100px;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+  background-color: transparent;
+}
+
+.lable-box span {
+  color: #ccc;
+  border: 1px solid #ccc;
+  width: 90px;
+  display: inline-block;
+  line-height: 24px;
+  float: left;
+  margin: 2px;
+  font-size: 12px;
+}
+
+.lable-box {
+  position: absolute;
+  width: 190px;
+  left: 236px;
+  top: 32px;
+}
+
+.info-box {
+  width: 190px;
+  position: absolute;
+  left: 234px;
+  bottom: 24px;
+  background-color: #449cf6;
+  color: white;
+}
+
+.info-2 {
+  background-color: #2085ec;
+  border-top: 1px solid #ccc;
 }
 
