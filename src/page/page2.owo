@@ -1,0 +1,689 @@
+<template lang="pug">
+.home
+  .top-box
+    .hrard
+      .w1200.clear
+        img.logo.fl(src="@|logo.png|")
+        .button-box.fr
+          .button-item.active(o-hover="grow") 登录
+          .button-item(o-hover="grow") 注册
+    img.main-bg(src="@|bg-3.jpg|")
+    .w1200
+      .qy-info.clear
+        .fl.qy-logo
+          img(src="@|qy.png|")
+        .fr
+          h2 圣泉集团
+          .info
+            h4 福利待遇本市排行
+            span 5%
+          ul.clear
+            li
+              h3 1758人
+              h5 对本单位感兴趣
+            li
+              h3 452人
+              h5 对本单位感兴趣
+            li
+              h3 1758人
+              h5 对本单位感兴趣
+            li
+              h3 1758人
+              h5 对本单位感兴趣
+      .title-bar
+        h2 企业待遇
+        h4 COMPANY PROFILE
+      .hover-box.clear
+        ul.fl
+          li
+            h2 社会保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 休息休假
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 奖励奖金
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 安居保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 社会保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 社会保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 社会保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 休息休假
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 奖励奖金
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 安居保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 社会保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+          li
+            h2 社会保障
+            .show
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+              span 社会保障
+              span 带薪产假
+              span 带薪育儿假
+              span 带薪陪产假
+              span 带薪病假
+              span 年假
+              span 婚假
+        .fr.clear
+
+      .title-bar
+        h2 岗位列表
+        h4 COMPANY PROFILE
+      .gw-box
+        .gw-card.clear
+          .fl.left
+            .tit
+              h2 工程师
+              span 普通职位
+            .text.clear
+              h4 岗位要求:
+              p 会计算机编程，嵌入式，Java，仪表，智能操控，微机保护等产品，至少熟悉一种ARM，熟悉一种单片机的软硬件开发
+            .text.text-2.clear
+              h4 发布时间:
+              p 2021/09/02
+          .fr.clear
+            .item
+              h3 14
+              span 新简历
+            .item
+              h3 0
+              span 面试
+            .item
+              h3 14
+              span 候选人
+        .gw-card.clear
+          .fl.left
+            .tit
+              h2 工程师
+              span 普通职位
+            .text.clear
+              h4 岗位要求:
+              p 会计算机编程，嵌入式，Java，仪表，智能操控，微机保护等产品，至少熟悉一种ARM，熟悉一种单片机的软硬件开发
+            .text.text-2.clear
+              h4 发布时间:
+              p 2021/09/02
+          .fr.clear
+            .item
+              h3 14
+              span 新简历
+            .item
+              h3 0
+              span 面试
+            .item
+              h3 14
+              span 候选人
+        .gw-card.clear
+          .fl.left
+            .tit
+              h2 工程师
+              span 普通职位
+            .text.clear
+              h4 岗位要求:
+              p 会计算机编程，嵌入式，Java，仪表，智能操控，微机保护等产品，至少熟悉一种ARM，熟悉一种单片机的软硬件开发
+            .text.text-2.clear
+              h4 发布时间:
+              p 2021/09/02
+          .fr.clear
+            .item
+              h3 14
+              span 新简历
+            .item
+              h3 0
+              span 面试
+            .item
+              h3 14
+              span 候选人
+      .title-bar
+        h2 意向人才
+        h4 COMPANY PROFILE
+      .pipei-box
+        .pipei-item
+          .title
+            span 求职意向：内容运营/北京/10k-15k
+            span 一小时前来过
+          .bottom
+            .user-bar.clear
+              .left.clear
+                img.fl(src="@|qy.png|")
+                .fl.user-info
+                  h2 姓名
+                  h4 两年工作经验/本科*统招/23岁/男
+                  .lable
+                    span 名企
+              .pipei 匹配度:99%
+            .jingli-box.clear
+              .jingli-card.fl
+                h3 工作经历
+                ul.sty-1
+                  li
+                    .left
+                      h4 北京快手科技有限公司
+                      span 视频剪辑实习生
+                    .right
+                      span 音视频
+                  li
+                    .left
+                      h4 北京快手科技有限公司
+                      span 视频剪辑实习生
+                    .right
+                      span 音视频
+              .jingli-card.fl
+                h3 教育经历
+                ul.sty-1
+                  li
+                    .left
+                      h4 广东农业大学
+                      span 新闻学|本科
+  plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      new switchIt(document.querySelectorAll('.hover-box li'), '.show', document.querySelector('.hover-box .fr'))
+    }
+  }
+</script>
+
+
+<style lang="less">
+.top-box {
+  .hrard {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    .w1200 {
+      height: 80px;
+    }
+    .logo {
+      height: 54px;
+      margin: 13px;
+    }
+    .button-item {
+      display: inline-block;
+      background-color: white;
+      padding: 0px 27px;
+      border-radius: 15px;
+      font-size: 16px;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 5px;
+      cursor: pointer;
+      box-shadow: 1px 1px 4px #564f4f;
+    }
+    .button-item.active {
+      background-color: #1c9bf4;
+      color: white;
+    }
+    .button-box {
+      height: 80px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.hrard {
+  border-bottom: 1px solid #ccc;
+}
+.main-bg {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.qy-info {
+  margin: 15px 0;
+  .qy-logo {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    img {
+      max-width: 220px;
+      max-height: 220px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  .fr {
+    width: 900px;
+    height: 180px;
+    border-left: 1px solid #ccc;
+    margin: 45px 0;
+    text-align: left;
+    padding: 0 45px;
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-left: 30px;
+    }
+    .info {
+      margin-left: 30px;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 34px;
+      h4 {
+        display: inline-block;
+        font-weight: normal;
+      }
+      span {
+        color: #1c9bf4;
+        margin-left: 15px;
+      }
+    }
+  }
+  ul {
+    margin-top: 30px;
+    color: #666;
+    li {
+      text-align: center;
+      float: left;
+      width: 25%;
+      font-size: 22px;
+      line-height: 34px;
+      border-right: 1px solid #ccc;
+      h3 {
+        color: #1c9bf4;
+      }
+    }
+  }
+}
+.title-bar {
+  background-image: url('@|title-line.png|');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 30px;
+  h2 {
+    line-height: 30px;
+    font-size: 28px;
+    color: #043b78;
+  }
+  h4 {
+    line-height: 33px;
+  }
+}
+.hover-box {
+  .show {
+    display: none;
+  }
+  ul {
+    width: 200px;
+    height: 630px;
+    overflow: auto;
+    li {
+      line-height: 60px;
+      font-weight: normal;
+      font-size: 18px;
+      cursor: pointer;
+      h2 {
+        font-weight: normal;
+      }
+    }
+    li:hover {
+      background-color: #f7f7f7;
+    }
+    li.active {
+      border-left: 3px solid #2085ec;
+      background-color: #f7f7f7;
+    }
+  }
+  .fr {
+    width: 980px;
+    text-align: left;
+    height: 630px;
+    padding: 30px;
+    border-left: 1px solid #ccc;
+    span {
+      float: left;
+      width: 120px;
+      height: 45px;
+      line-height: 45px;
+      border: 1px solid #999;
+      text-align: center;
+      margin: 10px;
+      font-size: 16px;
+      color: #000;
+    }
+  }
+}
+.gw-box {
+  .gw-card {
+    border: 1px solid #ccc;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+  }
+  .left {
+    text-align: left;
+    .tit {
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      h2 {
+        display: inline;
+        font-size: 24px;
+      }
+      span {
+        line-height: 30px;
+        display: inline-block;
+        margin-left: 20px;
+        background-color: #e0eefc;
+        color: #2085ec;
+        padding: 0 10px;
+        font-size: 14px;
+      }
+    }
+    .text {
+      font-size: 16px;
+      margin-top: 10px;
+      display: flex;
+      h4 {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      p {
+        display: inline-block;
+        width: 480px;
+        line-height: 24px;
+      }
+    }
+    .text-2 {
+      h4, p {
+        color: #666666;
+      }
+    }
+  }
+  .fr {
+    width: 330px;
+    margin: 25px 0;
+    .item {
+      float: left;
+      width: 33.3%;
+      h3 {
+        line-height: 50px;
+        font-size: 26px;
+      }
+      span {
+        font-size: 16px;
+        color: #666;
+        display: block;
+      }
+    }
+  }
+}
+.pipei-box {
+  .pipei-item {
+    .title {
+      background-color: #d4c8c8;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      padding: 0 20px;
+      color: #999;
+    }
+  }
+  .user-bar {
+    img {
+      width: 90px;
+      height: 90px;
+      overflow: hidden;
+      border-radius: 45px;
+    }
+  }
+  .bottom {
+    padding: 30px;
+  }
+  .user-bar {
+    position: relative;
+  }
+  .user-info {
+    text-align: left;
+    margin-left: 20px;
+    h2 {
+      font-size: 20px;
+      line-height: 34px;
+    }
+    h4 {
+      font-size: 16px;
+      line-height: 30px;
+    }
+    .lable {
+      margin-top: 8px;
+      span {
+        border: 1px solid #ccc;
+        padding: 3px 15px;
+        border-radius: 15px;
+      }
+    }
+    
+  }
+  .pipei {
+    position: absolute;
+    right: 10px;
+    color: #2085ec;
+    font-size: 28px;
+    line-height: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+  }
+  .pipei-item {
+    border: 1px solid #ccc;
+  }
+  .jingli-card {
+    width: 50%;
+    text-align: left;
+    h3 {
+      font-size: 18px;
+      line-height: 40px;
+      margin-top: 20px;
+    }
+    .sty-1 {
+      padding: 0 20px;
+      padding-right: 40px;
+      margin-top: 20px;
+      li {
+        display: flex;
+        margin: 5px 0;
+        justify-content: space-between;
+      }
+      h4 {
+        display: inline;
+        font-size: 16px;
+      }
+      span {
+        color: #666;
+        font-size: 16px;
+        margin-left: 20px;
+      }
+      .right {
+        span {
+          border: 1px solid #ccc;
+          padding: 0 10px;
+          border-radius: 6px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+</style>
