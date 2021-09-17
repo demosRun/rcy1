@@ -77,12 +77,12 @@
 
 <style lang="less">
 .card-swiper-box-9 {
-  width: 1000px;
+  width: 1120px;
   height: 630px;
   position: relative;
 }
 .swiper-container {
-  width: 1000px;
+  width: 1120px;
   height: 580px;
   position: absolute;
   right: 0;

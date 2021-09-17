@@ -66,13 +66,13 @@ li {
 }
 
 .card-swiper-box-9 {
-  width: 1000px;
+  width: 1120px;
   height: 630px;
   position: relative;
 }
 
 .card-swiper-box-9 .swiper-container {
-  width: 1000px;
+  width: 1120px;
   height: 580px;
   position: absolute;
   right: 0;
@@ -128,6 +128,17 @@ li {
   display: block;
   margin: 0 20px;
   cursor: pointer;
+}
+#copyright {
+  padding: 40px 0;
+  position: relative;
+  font-size: 14px;
+  color: #000000;
+  z-index: 999;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  background-color: transparent;
 }
 .top-box {
   background-image: url('../images/bg-1.jpg');
@@ -305,7 +316,7 @@ li {
 
 .bottom-box {
   background-image: url('../images/bg-2.jpg');
-  height: 1124px;
+  height: 1080px;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -319,10 +330,10 @@ li {
 
 .card-swiper-box-9 {
   position: absolute;
-  left: 15%;
-  right: 0;
+  left: 5%;
+  right: 0px;
   margin: auto;
-  top: -20%;
+  top: 1%;
   bottom: 0;
 }
 

@@ -142,6 +142,7 @@
                     li 经济补贴
   .bottom-box
     plug(_name="module119" _src="https://template.owo.ink/84a645382bad88a3.owo")
+  plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
 </template>
 
 <script>
@@ -303,7 +304,7 @@
 }
 .bottom-box {
   background-image: url('@|bg-2.jpg|');
-  height: 1124px;
+  height: 1080px;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -315,10 +316,10 @@
 }
 .card-swiper-box-9 {
   position: absolute;
-  left: 15%;
-  right: 0;
+  left: 5%;
+  right: 0px;
   margin: auto;
-  top: -20%;
+  top: 1%;
   bottom: 0;
 }
 .card-swiper-box-9 .swiper-slide .swiper-slide-box img {
